@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(winget install:*)",
+      "Bash(gh:*)",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" auth login --web)",
+      "Bash(git init:*)",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" repo create 20260109-moma-opening --public --source=. --push)",
+      "Bash(git add:*)"
+    ]
+  }
+}
